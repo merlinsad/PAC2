@@ -1,0 +1,20 @@
+{
+  "name": "PAC_2semestre-main",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de um jogo pedra, papel e tesoura com banco de dados.<br>  Integrantes:<br>     Angelica Corrêa de Lara Gonçalves;<br>     Gabriel Correa;<br>      Gabriel Furquim da Silva,<br>     Gustavo Lipinski e<br>     Vinícius Vicenzo Padilha.     <br><br>  Os softwares para banco de dados usados foram:<br>      MySQL Workbench<br>     XAMPP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.9.0"
+  }
+}
