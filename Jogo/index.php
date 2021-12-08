@@ -81,13 +81,13 @@
                     <h1>Participações</h1>
                     <div class="alunos" id="contatos">
                         <img src="img/eufoto.jpg">
-                            <h3>Gabriel Furquim da Silva - Código do CSS e HTML</h3>
+                            <h3>Gabriel Furquim da Silva - <span style="color: #9F8170;">Front-End</span>(HTML, CSS)</h3>
                         </img>
                         <img src="img/gustavofoto.jpeg">
-                            <h3>Gustavo Lipinski - Imagens da página e produtos</h3>
+                            <h3>Gustavo Lipinski - <span style="color: #9F8170;">Design </span> e Layout</h3>
                         </img>
                         <img src="img/vinifoto.jpeg">
-                            <h3>Vinícius Vicenzo Padilha - Código do CSS e HTML</h3>
+                            <h3>Vinícius Vicenzo Padilha - <span style="color: #9F8170;">Back-End</span>(PHP, Banco de Dados e API Rest)</h3>
                         </img>
                     </div>
                 </div>

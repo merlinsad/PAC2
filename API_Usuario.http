@@ -2,34 +2,49 @@ GET http://localhost:6000/usuarios HTTP/1.1
 Content-Type: application/json
 
 ###
-
+//Inserir Usuario
 POST http://localhost:6000/usuarios HTTP/1.1
 Content-Type: application/json
 
 {
-    "id": 1,
+    "id": 5,
+    "usuario": "Darth Vader",
     "nome": "Vini",
     "email": "vini@vini.com",
     "telefone": 996983831,
     "cidade": "Teste",
     "estado":  "teste",
-    "data_nasc": 10092002
+    "data_nasc": 10092002,
+    "ranking": "Lorde Sith",
+    "pontos": 450
 }
 ###
 
-PUT http://localhost:6000/usuarios/1 HTTP/1.1
+
+//Fazer alteração cadastral
+PUT http://localhost:6000/usuarios/2 HTTP/1.1
+Content-Type: application/json
+{
+    "usuario":  "Merlin",
+    "nome":     "Vini",
+    "email":    "merlin@merlin.com",
+    "data_nasc":    "20211206",
+    "senha":    "123",
+    "ranking":  "Deus",
+}
+
+###
+//Em caso de atualizar pontos
+PUT http://localhost:6000/usuarios/2 HTTP/1.1
 Content-Type: application/json
 
 {
-    "nome": "Vin",
-    "email": "vini@vini.com",
-    "telefone": 996983831,
-    "cidade": "Teste",
-    "estado":  "teste",
-    "data_nasc": 10092002
+    "pontos": 700,
 }
 
 ###
 
+
+//Deletar Usuario
 DELETE http://localhost:6000/usuarios/1 HTTP/1.1
 Content-Type: application/json

@@ -33,6 +33,9 @@ const Usuario = db.define("usuarios", {
     },
     pontos:{
         type: Sequelize.INTEGER,
+    },
+    usuario: {
+        type: Sequelize.STRING(200)
     }
 
 },{
