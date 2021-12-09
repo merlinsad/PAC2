@@ -62,7 +62,7 @@
                 </div>
                 <div id="versus"><h1 id="oponente">VS</h1></div>
                     <div id="computador">
-                        <h2 id="computador_nome">computador</h2>
+                        <h2 id="computador_nome">Computador</h2>
                         <span id="computador_pontos">0</span>
                         <ul id="computador_escolha">
                             <li><a id="computador_escolha_1"><img src="img/pedra-removebg-preview.png"></a></li>
