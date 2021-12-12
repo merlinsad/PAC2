@@ -9,6 +9,19 @@ export const buscarUsuario = async(req, res) => {
     }
 }
 
+export const buscarUsuarioById = async(req, res) => {
+    try{
+        const Usuarios = await Usuario.findAll({
+            where:{
+                id: req.params.id
+            }
+        })
+        res.send(Usuarios)
+    } catch(erro){
+        console.log(erro)
+    }
+}
+
 export const criarUsuario = async(req, res) => {
     try{
         await Usuario.create(req.body)

@@ -83,5 +83,6 @@ $result = $con->query($sql);
             ?>
         </div>
     </main>
+    
 </body>
 </html>
