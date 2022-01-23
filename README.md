@@ -9,6 +9,7 @@ Used technologis:
 - XAAMP
 - MySQL
 - API Rest
+- PHP
 
 <p>Status of project: 100% &#9989;</p>
 
